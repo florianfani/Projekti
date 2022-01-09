@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0 auto;
+  background-color: #1c2d42;
+}
+
+#blla p {
+  margin-bottom: 0;
+}
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.navbar-nav.navbar-right {
+  position: absolute;
+  right: 2%;
+  
+}
+
+#drinkhero {
+  width: 100%;
+  background-image: url("img/qemkin4.jpg")  ;
+  height: 480px;
+  padding-top: 200px;
+}
+#drinktext {
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+  color: rgb(85, 84, 84);
+}
+#drinktext h1 {
+  letter-spacing: 15px;
+  margin-bottom: 0px;
+  font-size: 80px;
+}
+.meh {
+  text-align: center;
+}
+.meh p {
+  color: wheat;
+  
+}
+.meh h3 {
+  color: wheat;
+  margin-top: 10px;
+}
+.drinkprod {
+  text-align: center;
+  width: 33%;
+}
+.drinkprod h5{
+  color: #79253d;
+}
+
+.ftr {
+  background-color: #79253d;
+  color: white;
+}
+#live-music {
+  background-image: url("img/cafe.jpg");
+  height: 900px;
+  width: 100%;
+  padding-left: 10%;
+  padding-top: 3%;
+  color: gray;
+}
+#live-music p{
+  color: #79253d;
+}
+#live-music button {
+  background-color: white;
+  margin-top: 20px;
+  color: gray;
+  border: 1px #fbcc93;
+}
+
+#live-music button:hover {
+  color: white;
+  background-color: #79253d;
+}
+.col-xl{
+  margin-right: 120px;
+}
+
+.container1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.container h1{
+  color: #79253d;
+}
+.container{
+  color: wheat;
+}
+
+.login-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 92px;
+}
+
+.register-button{
+  width: 250px;
+  height: 35px; 
+  border: none; 
+  background-color: #1c2d42; 
+  color: white;
+}
+.register-button:hover{
+  background-color: #79253d;
+}
